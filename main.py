@@ -25,10 +25,14 @@ async def hello_cursor():
     return {"message": "Hello Cursor"}
 
 
+@app.get("/hello-human2")
+async def hello_vscode():
+    return {"message": "Hello Human2"}
+
 @app.get("/hello-claude")
 async def hello_claude():
     return {"message": "Hello Claude"}
 
 @app.get("/hello-human")
 async def hello_claude():
-    return {"message": "Hello Claude"}
+    return {"message": "Hello Human"}
