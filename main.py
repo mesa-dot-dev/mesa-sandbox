@@ -28,3 +28,7 @@ async def hello_cursor():
 @app.get("/hello-claude")
 async def hello_claude():
     return {"message": "Hello Claude"}
+
+@app.get("/hello-human")
+async def hello_claude():
+    return {"message": "Hello Claude"}
