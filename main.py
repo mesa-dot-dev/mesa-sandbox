@@ -23,3 +23,7 @@ async def health_check():
 @app.get("/hello01")
 async def hello01():
     return {"message": "Hello 01"}
+
+@app.get("/hello02")
+async def hello02():
+    return {"message": "Hello 02"}
