@@ -23,3 +23,18 @@ async def health_check():
 @app.get("/hello-mesa")
 async def hello_mesa():
     return {"message": "Hello, Mesa!"}
+
+
+@app.get("/hello-cursor")
+async def hello_cursor():
+    return {"message": "Hello, Cursor!"}
+
+
+@app.get("/hello-claude")
+async def hello_claude():
+    return {"message": "Hello, Claude!"}
+
+@app.get("/hello-human")
+async def hello_human():
+    return {"message": "Hello, Human!"}
+
