@@ -18,3 +18,8 @@ async def root():
 @app.get("/health")
 async def health_check():
     return {"status": "healthy"}
+
+
+@app.get("/hello-mesa")
+async def hello_mesa():
+    return {"message": "Hello, Mesa!"}
