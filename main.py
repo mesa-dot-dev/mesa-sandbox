@@ -23,3 +23,8 @@ async def health_check():
 @app.get("/hello-mesa")
 async def hello_mesa():
     return {"message": "Hello, Mesa!"}
+
+
+@app.get("/hello-agentblame")
+async def hello_agentblame():
+    return {"message": "Hello, AgentBlame!"}
