@@ -47,3 +47,8 @@ async def hello_agentblame():
 @app.get("/hello-agent")
 async def hello_agent():
     return {"message": "Hello, Agent!"}
+
+
+@app.get("/hello-agent1")
+async def hello_agent1():
+    return {"message": "Hello, Agent1!"}
