@@ -38,3 +38,7 @@ async def hello_claude():
 async def hello_human():
     return {"message": "Hello, Human!"}
 
+
+@app.get("/hello-agentblame")
+async def hello_agentblame():
+    return {"message": "Hello, Agentblame!"}
