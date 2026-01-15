@@ -52,3 +52,8 @@ async def hello_agent():
 @app.get("/hello-agent1")
 async def hello_agent1():
     return {"message": "Hello, Agent1!"}
+
+
+@app.get("/hello-mesa-user")
+async def hello_mesa_user():
+    return {"message": "Hello, Mesa User!"}
