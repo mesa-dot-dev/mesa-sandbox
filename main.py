@@ -52,3 +52,17 @@ async def hello_agent():
 @app.get("/hello-agent1")
 async def hello_agent1():
     return {"message": "Hello, Agent1!"}
+
+
+@app.get("/hello-agent2")
+async def hello_agent2():
+    return {"message": "Hello, Agent2!"}
+
+
+@app.get("/hello-agent3")
+async def hello_agent3():
+    return {"message": "Hello, Agent3!"}
+
+@app.get("/hello-agent4")
+async def hello_agent4():
+    return {"message": "Hello, Agent4!"}
