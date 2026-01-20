@@ -62,3 +62,8 @@ async def hello_abc():
 @app.get("/hello-abc1")
 async def hello_abc1():
     return {"message": "Hello, ABC1!"}
+
+
+@app.get("/hello-abc2")
+async def hello_abc2():
+    return {"message": "Hello, ABC2!"}
